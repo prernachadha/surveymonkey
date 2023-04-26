@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="testng.Listener"/>
+  </listeners>
+  <test thread-count="5" name="testng.TC001_annotation(failed)">
+    <classes>
+      <class name="testng.TC001_annotation">
+        <methods>
+          <include name="asseconcept"/>
+        </methods>
+      </class> <!-- testng.TC001_annotation -->
+    </classes>
+  </test> <!-- testng.TC001_annotation(failed) -->
+</suite> <!-- Failed suite [Suite] -->
